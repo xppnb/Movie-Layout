@@ -1,4 +1,4 @@
-edu.wschain.china_model_d
+edu.wschain.china_model_d2
 attr alpha
 attr font
 attr fontProviderAuthority

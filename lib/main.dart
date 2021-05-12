@@ -1,6 +1,5 @@
+import 'package:china_model_d2/Page/HomeScreem.dart';
 import 'package:flutter/material.dart';
-
-import 'Page/FirstPage.dart';
 
 void main() => runApp(MyApp());
 
@@ -10,9 +9,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        body: FirstPage(),
+      title: "Movie App",
+      theme: ThemeData(
       ),
+      home: HomeScreen(),
     );
   }
 }
